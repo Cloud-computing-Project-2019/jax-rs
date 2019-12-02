@@ -1,5 +1,5 @@
 FROM openjdk:11.0.4-jre-slim
-
+#Kubernetes deployment
 RUN mkdir /app
 
 WORKDIR /app
