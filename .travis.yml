@@ -15,7 +15,7 @@ cache:
     - $HOME/.m2
 
 env:
-  - DOCKER_IMAGE=ghajduk3/mejnik-orders:latest
+  - DOCKER_IMAGE=ghajduk3/mejnik-ordersgit:latest
 
 script:
   - mvn clean package -U
